@@ -1,0 +1,186 @@
+<ENTRY>
+{
+ "thisFile": "/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/_x_temp.sw_emu.xilinx_u250_gen3x16_xdma_4_1_202210_1/aes256CbcEncryptKernel.xo.compile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Thu May 11 14:44:16 2023",
+ "timestampMillis": "1683809056280",
+ "buildStep": {
+  "cmdId": "b3bf80b9-1d07-4d14-a719-e4f719c662a5",
+  "name": "v++",
+  "logFile": "/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/_x_temp.sw_emu.xilinx_u250_gen3x16_xdma_4_1_202210_1/aes256CbcEncryptKernel/aes256CbcEncryptKernel.steps.log",
+  "commandLine": "/tools/Xilinx/Vitis/2022.1/bin/unwrapped/lnx64.o/v++  --vivado.prop \"run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\" -c --hls.clock 300000000:aes256CbcEncryptKernel -t sw_emu --platform /opt/xilinx/platforms/xilinx_u250_gen3x16_xdma_4_1_202210_1/xilinx_u250_gen3x16_xdma_4_1_202210_1.xpfm --save-temps --config /home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/conn_u250.cfg -I /home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include -I /home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel -I /home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include -k aes256CbcEncryptKernel -I/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel --temp_dir _x_temp.sw_emu.xilinx_u250_gen3x16_xdma_4_1_202210_1 --report_dir /home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/reports/_x.sw_emu.xilinx_u250_gen3x16_xdma_4_1_202210_1 -o _x_temp.sw_emu.xilinx_u250_gen3x16_xdma_4_1_202210_1/aes256CbcEncryptKernel.xo /home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp ",
+  "args": [
+   "-c",
+   "--hls.clock",
+   "300000000:aes256CbcEncryptKernel",
+   "-t",
+   "sw_emu",
+   "--platform",
+   "/opt/xilinx/platforms/xilinx_u250_gen3x16_xdma_4_1_202210_1/xilinx_u250_gen3x16_xdma_4_1_202210_1.xpfm",
+   "--save-temps",
+   "--config",
+   "/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/conn_u250.cfg",
+   "-I",
+   "/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include",
+   "-I",
+   "/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel",
+   "-I",
+   "/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include",
+   "-k",
+   "aes256CbcEncryptKernel",
+   "-I/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel",
+   "--temp_dir",
+   "_x_temp.sw_emu.xilinx_u250_gen3x16_xdma_4_1_202210_1",
+   "--report_dir",
+   "/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/reports/_x.sw_emu.xilinx_u250_gen3x16_xdma_4_1_202210_1",
+   "-o",
+   "_x_temp.sw_emu.xilinx_u250_gen3x16_xdma_4_1_202210_1/aes256CbcEncryptKernel.xo",
+   "/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp"
+  ],
+  "iniFiles": [
+   {
+    "path": "/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/conn_u250.cfg",
+    "content": "[connectivity]\nnk=aes256CbcEncryptKernel:1:aes256CbcEncryptKernel\nsp=aes256CbcEncryptKernel.inputData:bank0\nsp=aes256CbcEncryptKernel.outputData:bank0\n"
+   }
+  ],
+  "cwd": "/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu May 11 14:44:16 2023",
+ "timestampMillis": "1683809056283",
+ "status": {
+  "cmdId": "b3bf80b9-1d07-4d14-a719-e4f719c662a5",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Thu May 11 14:44:22 2023",
+ "timestampMillis": "1683809062016",
+ "buildSummary": {
+  "hardwarePlatform": "xilinx_u250_gen3x16_xdma_4_1_202210_1.xpfm",
+  "hardwareDsa": "",
+  "platformDirectory": "/opt/xilinx/platforms/xilinx_u250_gen3x16_xdma_4_1_202210_1",
+  "runtime": "OpenCL",
+  "systemConfig": "Linux",
+  "flow": "BF_COMPILE",
+  "target": "TT_SW_EMU",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "aes256CbcEncryptKernel",
+     "file": "/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/_x_temp.sw_emu.xilinx_u250_gen3x16_xdma_4_1_202210_1/aes256CbcEncryptKernel.xo",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "Vitis V++ Compiler Release 2022.1. SW Build 3524075 on 2022-04-13-17:42:45"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Thu May 11 14:44:22 2023",
+ "timestampMillis": "1683809062029",
+ "buildStep": {
+  "cmdId": "3fac4d72-8663-421b-9c81-2c35b9d53abb",
+  "name": "vitis_hls",
+  "logFile": "/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/_x_temp.sw_emu.xilinx_u250_gen3x16_xdma_4_1_202210_1/aes256CbcEncryptKernel/aes256CbcEncryptKernel/vitis_hls.log",
+  "commandLine": "vitis_hls -f /home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/_x_temp.sw_emu.xilinx_u250_gen3x16_xdma_4_1_202210_1/aes256CbcEncryptKernel/aes256CbcEncryptKernel/aes256CbcEncryptKernel.tcl -messageDb vitis_hls.pb",
+  "args": [
+   "vitis_hls",
+   "-f",
+   "/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/_x_temp.sw_emu.xilinx_u250_gen3x16_xdma_4_1_202210_1/aes256CbcEncryptKernel/aes256CbcEncryptKernel/aes256CbcEncryptKernel.tcl",
+   "-messageDb",
+   "vitis_hls.pb"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu May 11 14:44:22 2023",
+ "timestampMillis": "1683809062031",
+ "status": {
+  "cmdId": "3fac4d72-8663-421b-9c81-2c35b9d53abb",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu May 11 14:44:45 2023",
+ "timestampMillis": "1683809085427",
+ "status": {
+  "cmdId": "3fac4d72-8663-421b-9c81-2c35b9d53abb",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu May 11 14:44:45 2023",
+ "timestampMillis": "1683809085709",
+ "report": {
+  "path": "/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/reports/_x.sw_emu.xilinx_u250_gen3x16_xdma_4_1_202210_1/aes256CbcEncryptKernel/v++_compile_aes256CbcEncryptKernel_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu May 11 14:44:45 2023",
+ "timestampMillis": "1683809085712",
+ "report": {
+  "path": "/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/_x_temp.sw_emu.xilinx_u250_gen3x16_xdma_4_1_202210_1/v++_compile_aes256CbcEncryptKernel_guidance.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu May 11 14:44:45 2023",
+ "timestampMillis": "1683809085722",
+ "status": {
+  "cmdId": "b3bf80b9-1d07-4d14-a719-e4f719c662a5",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>

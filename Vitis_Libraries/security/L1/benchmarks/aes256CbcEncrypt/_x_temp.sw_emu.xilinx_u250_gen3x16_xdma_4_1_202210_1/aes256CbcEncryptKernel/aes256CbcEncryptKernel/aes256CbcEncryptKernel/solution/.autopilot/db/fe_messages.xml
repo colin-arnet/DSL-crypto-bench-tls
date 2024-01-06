@@ -1,0 +1,435 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5525" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:40:9" msg_body="'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead">
+        <args ClangWarningOption="ignored-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5525" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:41:9" msg_body="'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead">
+        <args ClangWarningOption="ignored-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5525" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:42:9" msg_body="'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead">
+        <args ClangWarningOption="ignored-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5525" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:43:9" msg_body="'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead">
+        <args ClangWarningOption="ignored-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5525" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:53:9" msg_body="'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead">
+        <args ClangWarningOption="ignored-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5525" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:56:9" msg_body="'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead">
+        <args ClangWarningOption="ignored-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5525" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:60:9" msg_body="'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead">
+        <args ClangWarningOption="ignored-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5525" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:64:9" msg_body="'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead">
+        <args ClangWarningOption="ignored-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5525" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:68:9" msg_body="'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead">
+        <args ClangWarningOption="ignored-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5525" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:75:9" msg_body="'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead">
+        <args ClangWarningOption="ignored-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5525" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:79:9" msg_body="'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead">
+        <args ClangWarningOption="ignored-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:145:31" msg_body="unused parameter 'cipherkey'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:153:31" msg_body="unused parameter 'plaintext'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:153:53" msg_body="unused parameter 'cipherkey'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:153:78" msg_body="unused parameter 'ciphertext'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:208:55" msg_body="unused parameter 'cipherkey'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:364:55" msg_body="unused parameter 'cipherkey'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:471:55" msg_body="unused parameter 'cipherkey'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:556:31" msg_body="unused parameter 'cipherkey'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:564:31" msg_body="unused parameter 'ciphertext'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:564:54" msg_body="unused parameter 'cipherkey'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:564:79" msg_body="unused parameter 'plaintext'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:615:56" msg_body="unused parameter 'cipherkey'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:733:56" msg_body="unused parameter 'cipherkey'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:837:56" msg_body="unused parameter 'cipherkey'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_ref.h:724:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="and_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_ref.h:738:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="or_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_ref.h:752:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xor_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:39:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="aesTable" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:40:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="aesTable" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = ssbox core = ROM_nP_LUTRAM" ARG_PragmaType="resource" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:41:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="aesTable" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = iibox core = ROM_nP_LUTRAM" ARG_PragmaType="resource" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:42:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="aesTable" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = i32box core = ROM_nP_LUTRAM" ARG_PragmaType="resource" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:43:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="aesTable" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = p16box core = ROM_nP_LUTRAM" ARG_PragmaType="resource" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:162:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="aesEnc" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:163:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="aesEnc" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = key_list complete dim = 1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:167:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="updateKey" ARG_PragmaIsValid="1" ARG_PragmaOptions="off" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:173:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="updateKey" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:220:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="process" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:246:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="process" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:256:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="process" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:280:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="updateKey_2" ARG_PragmaIsValid="1" ARG_PragmaOptions="off" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:288:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="updateKey_2" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:321:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="aesEnc" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:322:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="aesEnc" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = key_list complete dim = 1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:326:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="updateKey" ARG_PragmaIsValid="1" ARG_PragmaOptions="off" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:334:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="updateKey" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:376:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="process" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:402:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="process" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:412:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="process" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:442:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="aesEnc" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:443:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="aesEnc" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = key_list complete dim = 1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:447:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="updateKey" ARG_PragmaIsValid="1" ARG_PragmaOptions="off" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:452:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="updateKey" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:483:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="process" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:509:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="process" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:519:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="process" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:573:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="aesDec" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:574:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="aesDec" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = key_list complete dim = 1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:578:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="updateKey" ARG_PragmaIsValid="1" ARG_PragmaOptions="off" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:584:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="updateKey" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:648:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="process" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:665:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="process" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:690:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="aesDec" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:691:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="aesDec" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = key_list complete dim = 1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:695:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="updateKey" ARG_PragmaIsValid="1" ARG_PragmaOptions="off" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:703:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="updateKey" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:766:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="process" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:783:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="process" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:808:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="aesDec" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:809:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="aesDec" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = key_list complete dim = 1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:813:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="updateKey" ARG_PragmaIsValid="1" ARG_PragmaOptions="off" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:818:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="updateKey" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:870:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="process" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:887:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="process" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/des.hpp:164:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="convert" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/des.hpp:177:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="extend" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/des.hpp:185:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="substitute" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/des.hpp:216:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="perm" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/des.hpp:244:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="initPerm" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/des.hpp:252:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="finalPerm" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/des.hpp:267:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="keySchedule" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/des.hpp:269:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="keySchedule" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/des.hpp:288:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="desEncrypt" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/des.hpp:313:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="desEncrypt" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/des.hpp:345:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="desDecrypt" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/des.hpp:372:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="desDecrypt" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/des.hpp:404:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="des3Encrypt" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/des.hpp:424:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="des3Decrypt" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/cbc.hpp:104:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="aesCbcEncrypt" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/cbc.hpp:206:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="aesCbcDecrypt" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/cbc.hpp:299:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="desCbcEncrypt" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/cbc.hpp:394:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="desCbcDecrypt" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/msgpack.hpp:57:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="packBase&lt;W&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/msgpack.hpp:128:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="scanRaw" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/msgpack.hpp:156:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="parsePack" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/msgpack.hpp:169:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="writeRaw" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/msgpack.hpp:211:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="aesCbcPack&lt;KeyW&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/msgpack.hpp:282:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="scanPack" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/msgpack.hpp:284:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="scanPack" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = rawStrm depth = 128" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/msgpack.hpp:294:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="writeOutMsgPack" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/msgpack.hpp:296:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="writeOutMsgPack" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = rawStrm depth = 128" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/msgpack.hpp:298:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="writeOutMsgPack" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = numRawStrm depth = 4" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/msgpack.hpp:315:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="scanRaw" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/msgpack.hpp:350:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="parsePack" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/msgpack.hpp:355:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="parsePack" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/msgpack.hpp:368:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="writeRaw" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/msgpack.hpp:422:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AeadEncryptPack&lt;KeyW&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/msgpack.hpp:517:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="scanPack" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/msgpack.hpp:519:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="scanPack" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = rawStrm depth = 128" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/msgpack.hpp:530:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="writeOutMsgPack" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/msgpack.hpp:532:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="writeOutMsgPack" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = rawStrm depth = 128" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/msgpack.hpp:534:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="writeOutMsgPack" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = numRawStrm depth = 4" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:49:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="wrapper" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:52:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="wrapper" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = textStrm depth = 128" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:53:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="wrapper" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = textStrm core = FIFO_LUTRAM" ARG_PragmaType="resource" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:55:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="wrapper" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = endTextStrm depth = 128" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:56:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="wrapper" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = endTextStrm core = FIFO_LUTRAM" ARG_PragmaType="resource" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:59:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="wrapper" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = keyStrm depth = 4" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:60:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="wrapper" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = keyStrm core = FIFO_LUTRAM" ARG_PragmaType="resource" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:63:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="wrapper" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = ivStrm depth = 4" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:64:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="wrapper" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = ivStrm core = FIFO_LUTRAM" ARG_PragmaType="resource" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:67:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="wrapper" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = lenStrm depth = 4" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:68:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="wrapper" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = lenStrm core = FIFO_LUTRAM" ARG_PragmaType="resource" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:74:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="wrapper" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = resStrm depth = 128" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:75:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="wrapper" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = resStrm core = FIFO_LUTRAM" ARG_PragmaType="resource" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:78:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="wrapper" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = endResStrm depth = 128" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:79:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="wrapper" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = endResStrm core = FIFO_LUTRAM" ARG_PragmaType="resource" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/_x_temp.sw_emu.xilinx_u250_gen3x16_xdma_4_1_202210_1/aes256CbcEncryptKernel/aes256CbcEncryptKernel/aes256CbcEncryptKernel.tcl:26:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="aes256CbcEncryptKernel" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=aes256CbcEncryptKernel" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:89:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="aes256CbcEncryptKernel" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi offset = slave latency = 64 num_write_outstanding = 16 num_read_outstanding = 16 max_write_burst_length = 64 max_read_burst_length = 64 bundle = gmem0_0 port = inputData" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:94:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="aes256CbcEncryptKernel" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi offset = slave latency = 64 num_write_outstanding = 16 num_read_outstanding = 16 max_write_burst_length = 64 max_read_burst_length = 64 bundle = gmem0_1 port = outputData" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:100:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="aes256CbcEncryptKernel" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port = inputData bundle = control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:101:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="aes256CbcEncryptKernel" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port = outputData bundle = control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:102:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="aes256CbcEncryptKernel" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port = return bundle = control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:161:5" msg_body="Inlining function 'xf::security::aesTable::aesTable()' into 'xf::security::aesEnc&lt;256&gt;::aesEnc()'">
+        <args Callee="xf::security::aesTable::aesTable()" Caller="xf::security::aesEnc&lt;256&gt;::aesEnc()"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/cbc.hpp:76:37" msg_body="Inlining function 'xf::security::aesEnc&lt;256&gt;::aesEnc()' into 'void xf::security::internal::aesCbcEncrypt&lt;256u&gt;(hls::stream&lt;ap_uint&lt;128&gt;, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;256u&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;128&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;128&gt;, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;)'">
+        <args Callee="xf::security::aesEnc&lt;256&gt;::aesEnc()" Caller="void xf::security::internal::aesCbcEncrypt&lt;256u&gt;(hls::stream&lt;ap_uint&lt;128&gt;, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;256u&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;128&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;128&gt;, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:217:9" msg_body="Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:219:13" msg_body="Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:245:13" msg_body="Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:255:17" msg_body="Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:208:0" msg_body="Unrolling loop 'anonymous' (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:217:9) in function 'xf::security::aesEnc&lt;256&gt;::process' completely with a factor of 14">
+        <args Factor="14" LoopLoc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:217:9" LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:208:0" msg_body="Unrolling loop 'anonymous' (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:255:17) in function 'xf::security::aesEnc&lt;256&gt;::process' completely with a factor of 4">
+        <args Factor="4" LoopLoc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:255:17" LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:208:0" msg_body="Unrolling loop 'anonymous' (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:245:13) in function 'xf::security::aesEnc&lt;256&gt;::process' completely with a factor of 16">
+        <args Factor="16" LoopLoc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:245:13" LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:208:0" msg_body="Unrolling loop 'anonymous' (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:219:13) in function 'xf::security::aesEnc&lt;256&gt;::process' completely with a factor of 16">
+        <args Factor="16" LoopLoc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:219:13" LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:42:0" msg_body="Inlining function 'xf::security::aes256CbcEncrypt(hls::stream&lt;ap_uint&lt;128&gt;, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;256&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;128&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;128&gt;, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;)' into 'cbcWrapper(hls::stream&lt;ap_uint&lt;128&gt;, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;256&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;128&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;128&gt;, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, ap_uint&lt;64&gt;)'">
+        <args Callee="xf::security::aes256CbcEncrypt(hls::stream&lt;ap_uint&lt;128&gt;, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;256&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;128&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;128&gt;, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;)" Caller="cbcWrapper(hls::stream&lt;ap_uint&lt;128&gt;, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;256&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;128&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;128&gt;, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, ap_uint&lt;64&gt;)"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

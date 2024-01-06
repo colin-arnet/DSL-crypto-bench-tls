@@ -1,0 +1,52 @@
+XRT Build Version: 2.13.466 (2022.1)
+       Build Date: 2022-04-14 17:43:11
+          Hash ID: f5505e402c2ca1ffe45eb6d3a9399b23a0dc8776
+Creating a default 'in-memory' xclbin image.
+
+Section: 'BITSTREAM'(0) was successfully added.
+Size   : 1945504 bytes
+Format : RAW
+File   : '/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/_x_temp.sw_emu.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/aes256CbcEncryptKernel.so'
+
+Section: 'MEM_TOPOLOGY'(6) was successfully added.
+Format : JSON
+File   : 'mem_topology'
+
+Section: 'IP_LAYOUT'(8) was successfully added.
+Format : JSON
+File   : 'ip_layout'
+
+Section: 'CONNECTIVITY'(7) was successfully added.
+Format : JSON
+File   : 'connectivity'
+WARNING: Skipping CLOCK_FREQ_TOPOLOGY section for count size is zero.
+WARNING: Section 'CLOCK_FREQ_TOPOLOGY' content is empty.  No data in the given JSON file.
+
+Section: 'CLOCK_FREQ_TOPOLOGY'(11) was empty.  No action taken.
+Format : JSON
+File   : '/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/_x_temp.sw_emu.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/aes256CbcEncryptKernel_xml.rtd'
+
+Section: 'BUILD_METADATA'(14) was successfully added.
+Size   : 2972 bytes
+Format : JSON
+File   : '/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/_x_temp.sw_emu.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/aes256CbcEncryptKernel_build.rtd'
+
+Section: 'EMBEDDED_METADATA'(2) was successfully added.
+Size   : 2480 bytes
+Format : RAW
+File   : '/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/_x_temp.sw_emu.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/aes256CbcEncryptKernel.xml'
+
+Section: 'SYSTEM_METADATA'(22) was successfully added.
+Size   : 8579 bytes
+Format : RAW
+File   : '/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/_x_temp.sw_emu.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/systemDiagramModel.json'
+
+Section: 'PARTITION_METADATA'(20) was successfully appended to.
+Format : JSON
+File   : 'partition_metadata'
+
+Section: 'IP_LAYOUT'(8) was successfully appended to.
+Format : JSON
+File   : 'ip_layout'
+Successfully wrote (1973337 bytes) to the output file: /home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/build_dir.sw_emu.xilinx_u250_gen3x16_xdma_4_1_202210_1/aes256CbcEncryptKernel.xclbin
+Leaving xclbinutil.

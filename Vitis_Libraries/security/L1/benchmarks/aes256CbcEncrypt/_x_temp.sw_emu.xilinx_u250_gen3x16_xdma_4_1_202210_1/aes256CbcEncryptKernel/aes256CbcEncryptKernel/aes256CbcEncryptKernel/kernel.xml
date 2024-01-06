@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root versionMajor="1" versionMinor="5">
+  <kernel name="aes256CbcEncryptKernel" language="c" vlnv="xilinx.com:hls:aes256CbcEncryptKernel:1.0" attributes="" hash="" preferredWorkGroupSizeMultiple="0" workGroupSize="1" debug="false" compileOptions=" -I /home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include -I /home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel -I /home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include -I /home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel" profileType="" interrupt="true" hwControlProtocol="ap_ctrl_chain" countedAutoRestart="0" deadlockDetection="local" mailbox="none" swReset="false">
+    <ports>
+      <port name="M_AXI_GMEM0_0" mode="master" range="0xFFFFFFFF" dataWidth="128" portType="addressable" base="0x0"/>
+      <port name="M_AXI_GMEM0_1" mode="master" range="0xFFFFFFFF" dataWidth="128" portType="addressable" base="0x0"/>
+      <port name="S_AXI_CONTROL" mode="slave" range="0x28" dataWidth="32" portType="addressable" base="0x0"/>
+    </ports>
+    <args>
+      <arg name="inputData" addressQualifier="1" id="0" port="M_AXI_GMEM0_0" size="0x8" offset="0x10" hostOffset="0x0" hostSize="0x8" type="void*"/>
+      <arg name="outputData" addressQualifier="1" id="1" port="M_AXI_GMEM0_1" size="0x8" offset="0x1C" hostOffset="0x0" hostSize="0x8" type="void*"/>
+    </args>
+    <compileWorkGroupSize x="1" y="1" z="1"/>
+    <maxWorkGroupSize x="1" y="1" z="1"/>
+  </kernel>
+</root>

@@ -1,0 +1,60 @@
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_latency=64
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_alignment_byte_size=64
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_rtl -register_reset_num=3
+INFO: [HLS 200-1510] Running: set_part xcu250-figd2104-2L-e 
+INFO: [HLS 200-1611] Setting target device to 'xcu250-figd2104-2L-e'
+INFO: [HLS 200-1510] Running: create_clock -period 300MHz -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 3.333ns.
+INFO: [HLS 200-1510] Running: config_dataflow -strict_mode warning 
+INFO: [HLS 200-1510] Running: config_export -deadlock_detection none 
+WARNING: [HLS 200-483] The 'config_export -deadlock_detection' command is deprecated and will be removed in a future release. Use 'config_rtl -deadlock_detection' as its replacement.
+INFO: [HLS 200-1907] Replacing 'config_export -deadlock_detection=none' with 'config_rtl -deadlock_detection=none' in current solution file
+INFO: [HLS 200-1510] Running: config_interface -m_axi_conservative_mode=1 
+INFO: [HLS 200-1510] Running: config_interface -m_axi_addr64 
+INFO: [HLS 200-1510] Running: config_interface -m_axi_auto_max_ports=0 
+INFO: [HLS 200-1510] Running: config_export -format xo -ipname aes256CbcEncryptKernel 
+INFO: [HLS 200-1907] Replacing 'config_export -deadlock_detection=none' with 'config_rtl -deadlock_detection=none' in current solution file
+INFO: [HLS 200-1510] Running: csynth_design -synthesis_check 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.02 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.03 seconds; current allocated memory: 1.210 GB.
+INFO: [HLS 200-10] Analyzing design file '/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp' ... 
+WARNING: [HLS 207-5525] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:40:9)
+WARNING: [HLS 207-5525] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:41:9)
+WARNING: [HLS 207-5525] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:42:9)
+WARNING: [HLS 207-5525] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:43:9)
+WARNING: [HLS 207-5525] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:53:9)
+WARNING: [HLS 207-5525] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:56:9)
+WARNING: [HLS 207-5525] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:60:9)
+WARNING: [HLS 207-5525] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:64:9)
+WARNING: [HLS 207-5525] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:68:9)
+WARNING: [HLS 207-5525] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:75:9)
+WARNING: [HLS 207-5525] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp:79:9)
+WARNING: [HLS 207-5292] unused parameter 'cipherkey' (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:145:31)
+WARNING: [HLS 207-5292] unused parameter 'plaintext' (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:153:31)
+WARNING: [HLS 207-5292] unused parameter 'cipherkey' (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:153:53)
+WARNING: [HLS 207-5292] unused parameter 'ciphertext' (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:153:78)
+WARNING: [HLS 207-5292] unused parameter 'cipherkey' (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:208:55)
+WARNING: [HLS 207-5292] unused parameter 'cipherkey' (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:364:55)
+WARNING: [HLS 207-5292] unused parameter 'cipherkey' (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:471:55)
+WARNING: [HLS 207-5292] unused parameter 'cipherkey' (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:556:31)
+WARNING: [HLS 207-5292] unused parameter 'ciphertext' (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:564:31)
+WARNING: [HLS 207-5292] unused parameter 'cipherkey' (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:564:54)
+WARNING: [HLS 207-5292] unused parameter 'plaintext' (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:564:79)
+WARNING: [HLS 207-5292] unused parameter 'cipherkey' (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:615:56)
+WARNING: [HLS 207-5292] unused parameter 'cipherkey' (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:733:56)
+WARNING: [HLS 207-5292] unused parameter 'cipherkey' (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:837:56)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 5.53 seconds. CPU system time: 0.68 seconds. Elapsed time: 5.1 seconds; current allocated memory: 209.703 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vitis' flow target.
+INFO: [HLS 214-131] Inlining function 'xf::security::aesTable::aesTable()' into 'xf::security::aesEnc<256>::aesEnc()' (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:161:5)
+INFO: [HLS 214-131] Inlining function 'xf::security::aesEnc<256>::aesEnc()' into 'void xf::security::internal::aesCbcEncrypt<256u>(hls::stream<ap_uint<128>, 0>&, hls::stream<bool, 0>&, hls::stream<ap_uint<256u>, 0>&, hls::stream<ap_uint<128>, 0>&, hls::stream<ap_uint<128>, 0>&, hls::stream<bool, 0>&)' (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/cbc.hpp:76:37)
+INFO: [HLS 214-291] Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:217:9)
+INFO: [HLS 214-291] Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:219:13)
+INFO: [HLS 214-291] Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:245:13)
+INFO: [HLS 214-291] Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma (/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include/xf_security/aes.hpp:255:17)
+INFO: [HLS 214-186]

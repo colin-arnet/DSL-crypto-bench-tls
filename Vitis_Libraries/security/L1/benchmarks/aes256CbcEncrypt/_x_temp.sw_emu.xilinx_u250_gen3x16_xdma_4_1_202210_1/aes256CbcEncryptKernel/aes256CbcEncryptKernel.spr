@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="aes256CbcEncryptKernel" dir="">
+  <FileSets>
+    <FileSet Name="kernel_aes256CbcEncryptKernel" Type="DesignSrcs">
+      <File Path="/home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel/aes256CbcEncryptKernel.cpp"/>
+      <Config/>
+    </FileSet>
+  </FileSets>
+  <Runs/>
+</project>

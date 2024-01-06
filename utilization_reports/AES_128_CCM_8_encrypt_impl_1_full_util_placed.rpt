@@ -1,0 +1,554 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
+| Date         : Sat Jun  3 10:47:54 2023
+| Host         : alveo-build-01.inf.ethz.ch running 64-bit Ubuntu 20.04.6 LTS
+| Command      : report_utilization -file full_util_placed.rpt -pb full_util_placed.pb
+| Design       : level0_wrapper
+| Device       : xcu250-figd2104-2L-e
+| Speed File   : -2L
+| Design State : Fully Placed
+---------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. CLB Logic
+1.1 Summary of Registers by Type
+2. CLB Logic Distribution
+3. BLOCKRAM
+4. ARITHMETIC
+5. I/O
+6. CLOCK
+7. ADVANCED
+8. CONFIGURATION
+9. Primitives
+10. Black Boxes
+11. Instantiated Netlists
+12. SLR Connectivity
+13. SLR Connectivity Matrix
+14. SLR CLB Logic and Dedicated Block Utilization
+15. SLR IO Utilization
+
+1. CLB Logic
+------------
+
++----------------------------+--------+-------+------------+-----------+-------+
+|          Site Type         |  Used  | Fixed | Prohibited | Available | Util% |
++----------------------------+--------+-------+------------+-----------+-------+
+| CLB LUTs                   | 129183 | 56815 |       1784 |   1726216 |  7.48 |
+|   LUT as Logic             | 113679 | 53304 |       1784 |   1726216 |  6.59 |
+|   LUT as Memory            |  15504 |  3511 |        840 |    790200 |  1.96 |
+|     LUT as Distributed RAM |   7036 |   560 |            |           |       |
+|     LUT as Shift Register  |   8468 |  2951 |            |           |       |
+| CLB Registers              | 191533 | 99159 |          0 |   3456000 |  5.54 |
+|   Register as Flip Flop    | 191531 | 99158 |          0 |   3456000 |  5.54 |
+|   Register as Latch        |      0 |     0 |          0 |   3456000 |  0.00 |
+|   Register as AND/OR       |      2 |     1 |          0 |   3456000 | <0.01 |
+| CARRY8                     |    860 |   367 |        223 |    215777 |  0.40 |
+| F7 Muxes                   |   7069 |   705 |        892 |    863108 |  0.82 |
+| F8 Muxes                   |   2854 |   261 |        446 |    431554 |  0.66 |
+| F9 Muxes                   |      0 |     0 |        223 |    215777 |  0.00 |
++----------------------------+--------+-------+------------+-----------+-------+
+
+
+1.1 Summary of Registers by Type
+--------------------------------
+
++--------+--------------+-------------+--------------+
+|  Total | Clock Enable | Synchronous | Asynchronous |
++--------+--------------+-------------+--------------+
+| 2      |            _ |           - |            - |
+| 0      |            _ |           - |          Set |
+| 0      |            _ |           - |        Reset |
+| 0      |            _ |         Set |            - |
+| 0      |            _ |       Reset |            - |
+| 0      |          Yes |           - |            - |
+| 819    |          Yes |           - |          Set |
+| 2218   |          Yes |           - |        Reset |
+| 2885   |          Yes |         Set |            - |
+| 185609 |          Yes |       Reset |            - |
++--------+--------------+-------------+--------------+
+
+
+2. CLB Logic Distribution
+-------------------------
+
++--------------------------------------------+--------+-------+------------+-----------+-------+
+|                  Site Type                 |  Used  | Fixed | Prohibited | Available | Util% |
++--------------------------------------------+--------+-------+------------+-----------+-------+
+| CLB                                        |  34338 |     0 |        223 |    215777 | 15.91 |
+|   CLBL                                     |  17793 |     0 |            |           |       |
+|   CLBM                                     |  16545 |     0 |            |           |       |
+| LUT as Logic                               | 113679 | 53304 |       1784 |   1726216 |  6.59 |
+|   using O5 output only                     |   2769 |       |            |           |       |
+|   using O6 output only                     |  79497 |       |            |           |       |
+|   using O5 and O6                          |  31413 |       |            |           |       |
+| LUT as Memory                              |  15504 |  3511 |        840 |    790200 |  1.96 |
+|   LUT as Distributed RAM                   |   7036 |   560 |            |           |       |
+|     using O5 output only                   |      0 |       |            |           |       |
+|     using O6 output only                   |   2044 |       |            |           |       |
+|     using O5 and O6                        |   4992 |       |            |           |       |
+|   LUT as Shift Register                    |   8468 |  2951 |            |           |       |
+|     using O5 output only                   |      0 |       |            |           |       |
+|     using O6 output only                   |   6183 |       |            |           |       |
+|     using O5 and O6                        |   2285 |       |            |           |       |
+| CLB Registers                              | 191533 |     0 |          0 |   3456000 |  5.54 |
+|   Register driven from within the CLB      |  91365 |       |            |           |       |
+|   Register driven from outside the CLB     | 100168 |       |            |           |       |
+|     LUT in front of the register is unused |  66384 |       |            |           |       |
+|     LUT in front of the register is used   |  33784 |       |            |           |       |
+| Unique Control Sets                        |   5330 |       |        446 |    431554 |  1.24 |
++--------------------------------------------+--------+-------+------------+-----------+-------+
+* * Note: Available Control Sets calculated as Slices * 2, Review the Control Sets Report for more information regarding control sets.
+
+
+3. BLOCKRAM
+-----------
+
++-------------------+-------+-------+------------+-----------+-------+
+|     Site Type     |  Used | Fixed | Prohibited | Available | Util% |
++-------------------+-------+-------+------------+-----------+-------+
+| Block RAM Tile    | 176.5 |     0 |          0 |      2688 |  6.57 |
+|   RAMB36/FIFO*    |   173 |   102 |          0 |      2688 |  6.44 |
+|     RAMB36E2 only |   173 |       |            |           |       |
+|   RAMB18          |     7 |     4 |          0 |      5376 |  0.13 |
+|     RAMB18E2 only |     7 |       |            |           |       |
+| URAM              |     0 |     0 |          0 |      1280 |  0.00 |
++-------------------+-------+-------+------------+-----------+-------+
+* Note: Each Block RAM Tile only has one FIFO logic available and therefore can accommodate only one FIFO36E2 or one FIFO18E2. However, if a FIFO18E2 occupies a Block RAM Tile, that tile can still accommodate a RAMB18E2
+
+
+4. ARITHMETIC
+-------------
+
++----------------+------+-------+------------+-----------+-------+
+|    Site Type   | Used | Fixed | Prohibited | Available | Util% |
++----------------+------+-------+------------+-----------+-------+
+| DSPs           |    7 |     4 |          0 |     12288 |  0.06 |
+|   DSP48E2 only |    7 |       |            |           |       |
++----------------+------+-------+------------+-----------+-------+
+
+
+5. I/O
+------
+
++------------------+------+-------+------------+-----------+-------+
+|     Site Type    | Used | Fixed | Prohibited | Available | Util% |
++------------------+------+-------+------------+-----------+-------+
+| Bonded IOB       |  159 |   159 |          0 |       676 | 23.52 |
+| HPIOB_M          |   78 |    78 |          0 |       312 | 25.00 |
+|   INPUT          |    7 |       |            |           |       |
+|   OUTPUT         |   17 |       |            |           |       |
+|   BIDIR          |   54 |       |            |           |       |
+| HPIOB_S          |   76 |    76 |          0 |       312 | 24.36 |
+|   INPUT          |    6 |       |            |           |       |
+|   OUTPUT         |   16 |       |            |           |       |
+|   BIDIR          |   54 |       |            |           |       |
+| HPIOB_SNGL       |    5 |     5 |          0 |        52 |  9.62 |
+|   INPUT          |    1 |       |            |           |       |
+|   OUTPUT         |    4 |       |            |           |       |
+|   BIDIR          |    0 |       |            |           |       |
+| HPIOBDIFFINBUF   |   20 |    20 |          0 |       384 |  5.21 |
+|   DIFFINBUF      |   20 |    20 |            |           |       |
+| HPIOBDIFFOUTBUF  |    0 |     0 |          0 |       384 |  0.00 |
+| BITSLICE_CONTROL |   24 |     0 |          0 |       128 | 18.75 |
+| BITSLICE_RX_TX   |  117 |   117 |          0 |      4992 |  2.34 |
+|   RXTX_BITSLICE  |  117 |   117 |            |           |       |
+| BITSLICE_TX      |   24 |     0 |          0 |       128 | 18.75 |
+| RIU_OR           |   12 |     0 |          0 |        64 | 18.75 |
++------------------+------+-------+------------+-----------+-------+
+
+
+6. CLOCK
+--------
+
++----------------------+------+-------+------------+-----------+-------+
+|       Site Type      | Used | Fixed | Prohibited | Available | Util% |
++----------------------+------+-------+------------+-----------+-------+
+| GLOBAL CLOCK BUFFERs |   45 |    33 |          0 |      1344 |  3.35 |
+|   BUFGCE             |   20 |     8 |          0 |       384 |  5.21 |
+|   BUFGCE_DIV         |    1 |     1 |          0 |        64 |  1.56 |
+|   BUFG_GT            |   22 |    22 |          0 |       768 |  2.86 |
+|   BUFGCTRL*          |    1 |     1 |          0 |       128 |  0.78 |
+| PLL                  |    4 |     1 |          0 |        32 | 12.50 |
+| MMCM                 |    4 |     2 |          0 |        16 | 25.00 |
++----------------------+------+-------+------------+-----------+-------+
+* Note: Each used BUFGCTRL counts as two GLOBAL CLOCK BUFFERs. This table does not include global clocking resources, only buffer cell usage. See the Clock Utilization Report (report_clock_utilization) for detailed accounting of global clocking resource availability.
+
+
+7. ADVANCED
+-----------
+
++-----------------+------+-------+------------+-----------+-------+
+|    Site Type    | Used | Fixed | Prohibited | Available | Util% |
++-----------------+------+-------+------------+-----------+-------+
+| CMACE4          |    0 |     0 |          0 |        12 |  0.00 |
+| GTYE4_CHANNEL   |   16 |    16 |          0 |        24 | 66.67 |
+| GTYE4_COMMON    |    4 |     4 |          0 |         6 | 66.67 |
+| ILKNE4          |    0 |     0 |          0 |         8 |  0.00 |
+| OBUFDS_GTE4     |    0 |     0 |          0 |        12 |  0.00 |
+| OBUFDS_GTE4_ADV |    0 |     0 |          0 |        12 |  0.00 |
+| PCIE40E4        |    1 |     1 |          0 |         4 | 25.00 |
+| SYSMONE4        |    0 |     0 |          0 |         4 |  0.00 |
++-----------------+------+-------+------------+-----------+-------+
+
+
+8. CONFIGURATION
+----------------
+
++-------------+------+-------+------------+-----------+-------+
+|  Site Type  | Used | Fixed | Prohibited | Available | Util% |
++-------------+------+-------+------------+-----------+-------+
+| BSCANE2     |    1 |     1 |          0 |        16 |  6.25 |
+| DNA_PORTE2  |    0 |     0 |          0 |         4 |  0.00 |
+| EFUSE_USR   |    0 |     0 |          0 |         4 |  0.00 |
+| FRAME_ECCE4 |    0 |     0 |          0 |         4 |  0.00 |
+| ICAPE3      |    1 |     1 |          0 |         8 | 12.50 |
+| MASTER_JTAG |    0 |     0 |          0 |         4 |  0.00 |
+| STARTUPE3   |    1 |     1 |          0 |         4 | 25.00 |
++-------------+------+-------+------------+-----------+-------+
+
+
+9. Primitives
+-------------
+
++------------------+--------+---------------------+
+|     Ref Name     |  Used  | Functional Category |
++------------------+--------+---------------------+
+| FDRE             | 185902 |            Register |
+| LUT3             |  46866 |                 CLB |
+| LUT6             |  33999 |                 CLB |
+| LUT5             |  22745 |                 CLB |
+| LUT4             |  16250 |                 CLB |
+| LUT2             |  15753 |                 CLB |
+| LUT1             |   9479 |                 CLB |
+| RAMD32           |   8512 |                 CLB |
+| SRL16E           |   7437 |                 CLB |
+| MUXF7            |   7069 |                 CLB |
+| SRLC32E          |   3309 |                 CLB |
+| FDSE             |   2885 |            Register |
+| MUXF8            |   2854 |                 CLB |
+| FDCE             |   2220 |            Register |
+| RAMD64E          |   2008 |                 CLB |
+| RAMS32           |   1508 |                 CLB |
+| CARRY8           |    860 |                 CLB |
+| FDPE             |    819 |            Register |
+| RAMB36E2         |    173 |            BLOCKRAM |
+| RXTX_BITSLICE    |    117 |                 I/O |
+| IBUFCTRL         |    102 |              Others |
+| INBUF            |     82 |                 I/O |
+| OBUFT_DCIEN      |     72 |                 I/O |
+| OBUF             |     37 |                 I/O |
+| OBUFT            |     36 |                 I/O |
+| TX_BITSLICE_TRI  |     24 |                 I/O |
+| BITSLICE_CONTROL |     24 |                 I/O |
+| BUFG_GT          |     22 |               Clock |
+| DIFFINBUF        |     20 |                 I/O |
+| BUFGCE           |     20 |               Clock |
+| INV              |     19 |                 CLB |
+| BUFG_GT_SYNC     |     17 |               Clock |
+| GTYE4_CHANNEL    |     16 |            Advanced |
+| RIU_OR           |     12 |                 I/O |
+| HPIO_VREF        |      9 |                 I/O |
+| SRLC16E          |      7 |                 CLB |
+| RAMB18E2         |      7 |            BLOCKRAM |
+| DSP48E2          |      7 |          Arithmetic |
+| PLLE4_ADV        |      4 |               Clock |
+| MMCME4_ADV       |      4 |               Clock |
+| GTYE4_COMMON     |      4 |            Advanced |
+| AND2B1L          |      2 |              Others |
+| STARTUPE3        |      1 |       Configuration |
+| PCIE40E4         |      1 |            Advanced |
+| ICAPE3           |      1 |       Configuration |
+| IBUFDS_GTE4      |      1 |                 I/O |
+| BUFGCTRL         |      1 |               Clock |
+| BUFGCE_DIV       |      1 |               Clock |
+| BSCANE2          |      1 |       Configuration |
++------------------+--------+---------------------+
+
+
+10. Black Boxes
+---------------
+
++----------+------+
+| Ref Name | Used |
++----------+------+
+
+
+11. Instantiated Netlists
+-------------------------
+
++--------------------------------------------+------+
+|                  Ref Name                  | Used |
++--------------------------------------------+------+
+| xsdbm                                      |    2 |
+| ulp_xbar_4                                 |    1 |
+| ulp_xbar_3                                 |    1 |
+| ulp_xbar_2                                 |    1 |
+| ulp_ss_ucs_0                               |    1 |
+| ulp_shell_cmp_subsystem_0_0                |    1 |
+| ulp_s00_regslice_45                        |    1 |
+| ulp_s00_regslice_43                        |    1 |
+| ulp_s00_regslice_42                        |    1 |
+| ulp_s00_regslice_41                        |    1 |
+| ulp_s00_regslice_40                        |    1 |
+| ulp_s00_regslice_39                        |    1 |
+| ulp_s00_regslice_38                        |    1 |
+| ulp_memory_subsystem_0                     |    1 |
+| ulp_m03_regslice_0                         |    1 |
+| ulp_m02_regslice_0                         |    1 |
+| ulp_m01_regslice_3                         |    1 |
+| ulp_m01_regslice_2                         |    1 |
+| ulp_m00_regslice_3                         |    1 |
+| ulp_m00_regslice_2                         |    1 |
+| ulp_ip_rs_axi_data_h2c_03_0                |    1 |
+| ulp_ip_rs_axi_data_c2h_00_0                |    1 |
+| ulp_ip_rs_axi_ctrl_user_03_0               |    1 |
+| ulp_ip_psr_aresetn_pcie_slr2_0             |    1 |
+| ulp_ip_psr_aresetn_kernel_00_slr0_0        |    1 |
+| ulp_ip_inv_aresetn_ctrl_00_0               |    1 |
+| ulp_ip_gpio_debug_axi_data_h2c_01_0        |    1 |
+| ulp_ip_gpio_debug_axi_ctrl_user_03_0       |    1 |
+| ulp_ip_gpio_debug_axi_ctrl_user_02_0       |    1 |
+| ulp_ip_gpio_debug_axi_ctrl_user_01_0       |    1 |
+| ulp_ip_gpio_debug_axi_ctrl_user_00_0       |    1 |
+| ulp_ip_gpio_debug_axi_ctrl_mgmt_01_0       |    1 |
+| ulp_ip_gpio_debug_axi_ctrl_mgmt_00_0       |    1 |
+| ulp_ip_cc_axi_data_h2c_03_0                |    1 |
+| ulp_ip_cc_axi_data_h2c_02_0                |    1 |
+| ulp_ip_cc_axi_data_h2c_01_0                |    1 |
+| ulp_ip_cc_axi_data_h2c_00_0                |    1 |
+| ulp_ii_level1_wire_0                       |    1 |
+| ulp_auto_pc_0                              |    1 |
+| ulp_auto_ds_0                              |    1 |
+| ulp_auto_cc_0                              |    1 |
+| ulp_aes128Ccm8EncryptKernel_0              |    1 |
+| ulp                                        |    1 |
+| level1_wrapper                             |    1 |
+| level0_ii_level0_pipe_0                    |    1 |
+| blp_wrapper                                |    1 |
+| bd_b35e_vip_ui_rst_DDR4_MEM00_0            |    1 |
+| bd_b35e_vip_ui_clk_DDR4_MEM00_0            |    1 |
+| bd_b35e_vip_ctrl_DDR4_MEM00_0              |    1 |
+| bd_b35e_vip_S05_AXI_0                      |    1 |
+| bd_b35e_vip_S04_AXI_0                      |    1 |
+| bd_b35e_vip_S00_AXI_0                      |    1 |
+| bd_b35e_vip_DDR4_MEM00_0                   |    1 |
+| bd_b35e_psr_ddr4_mem00_0                   |    1 |
+| bd_b35e_psr_ctrl_interconnect_0            |    1 |
+| bd_b35e_psr_aclk_SLR0_0                    |    1 |
+| bd_b35e_interconnect_ddrmem_ctrl_0         |    1 |
+| bd_b35e_interconnect_DDR4_MEM00_0          |    1 |
+| bd_b35e_ddr4_mem00_ctrl_cc_0               |    1 |
+| bd_b35e_ddr4_mem00_0_phy                   |    1 |
+| bd_b35e_ddr4_mem00_0                       |    1 |
+| bd_b35e_calib_reduce_0                     |    1 |
+| bd_7b93_lut_buffer_0                       |    1 |
+| bd_53f9_bsip_0                             |    1 |
+| bd_53f9_bs_switch_1_0                      |    1 |
+| bd_53f9_axi_jtag_0                         |    1 |
+| bd_3f43_user_debug_hub_0                   |    1 |
+| bd_3f43_user_debug_bridge_0                |    1 |
+| bd_3f43_build_info_0                       |    1 |
+| bd_1361_xbar_1                             |    1 |
+| bd_1361_xbar_0                             |    1 |
+| bd_1361_psreset_kernel_01_0                |    1 |
+| bd_1361_psreset_kernel_00_0                |    1 |
+| bd_1361_psreset_aclk_freerun_0             |    1 |
+| bd_1361_gpio_ucs_control_status_0          |    1 |
+| bd_1361_gpio_gapping_demand_0              |    1 |
+| bd_1361_gapping_demand_update_0            |    1 |
+| bd_1361_gapping_demand_toggle_0            |    1 |
+| bd_1361_frequency_counter_aclk_kernel_01_0 |    1 |
+| bd_1361_frequency_counter_aclk_kernel_00_0 |    1 |
+| bd_1361_frequency_counter_aclk_0           |    1 |
+| bd_1361_fanout_aresetn_pcie_slr3_6_0       |    1 |
+| bd_1361_fanout_aresetn_pcie_slr3_5_0       |    1 |
+| bd_1361_fanout_aresetn_pcie_slr3_4_0       |    1 |
+| bd_1361_fanout_aresetn_pcie_slr3_3_0       |    1 |
+| bd_1361_fanout_aresetn_pcie_slr3_2_0       |    1 |
+| bd_1361_fanout_aresetn_pcie_slr3_1_0       |    1 |
+| bd_1361_fanout_aresetn_pcie_slr2_4_0       |    1 |
+| bd_1361_fanout_aresetn_pcie_slr2_3_0       |    1 |
+| bd_1361_fanout_aresetn_pcie_slr2_2_0       |    1 |
+| bd_1361_fanout_aresetn_pcie_slr2_1_0       |    1 |
+| bd_1361_fanout_aresetn_pcie_slr1_4_0       |    1 |
+| bd_1361_fanout_aresetn_pcie_slr1_3_0       |    1 |
+| bd_1361_fanout_aresetn_pcie_slr1_2_0       |    1 |
+| bd_1361_fanout_aresetn_pcie_slr1_1_0       |    1 |
+| bd_1361_fanout_aresetn_pcie_slr0_4_0       |    1 |
+| bd_1361_fanout_aresetn_pcie_slr0_3_0       |    1 |
+| bd_1361_fanout_aresetn_pcie_slr0_2_0       |    1 |
+| bd_1361_fanout_aresetn_pcie_slr0_1_0       |    1 |
+| bd_1361_fanout_aresetn_kernel_01_slr3_6_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_01_slr3_5_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_01_slr3_4_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_01_slr3_3_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_01_slr3_2_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_01_slr3_1_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_01_slr2_4_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_01_slr2_3_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_01_slr2_2_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_01_slr2_1_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_01_slr1_4_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_01_slr1_3_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_01_slr1_2_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_01_slr1_1_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_01_slr0_4_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_01_slr0_3_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_01_slr0_2_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_01_slr0_1_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_00_slr3_6_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_00_slr3_5_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_00_slr3_4_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_00_slr3_3_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_00_slr3_2_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_00_slr3_1_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_00_slr2_4_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_00_slr2_3_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_00_slr2_2_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_00_slr2_1_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_00_slr1_4_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_00_slr1_3_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_00_slr1_2_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_00_slr1_1_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_00_slr0_4_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_00_slr0_3_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_00_slr0_2_0  |    1 |
+| bd_1361_fanout_aresetn_kernel_00_slr0_1_0  |    1 |
+| bd_1361_fanout_aresetn_ctrl_slr3_6_0       |    1 |
+| bd_1361_fanout_aresetn_ctrl_slr3_5_0       |    1 |
+| bd_1361_fanout_aresetn_ctrl_slr3_4_0       |    1 |
+| bd_1361_fanout_aresetn_ctrl_slr3_3_0       |    1 |
+| bd_1361_fanout_aresetn_ctrl_slr3_2_0       |    1 |
+| bd_1361_fanout_aresetn_ctrl_slr3_1_0       |    1 |
+| bd_1361_fanout_aresetn_ctrl_slr2_4_0       |    1 |
+| bd_1361_fanout_aresetn_ctrl_slr2_3_0       |    1 |
+| bd_1361_fanout_aresetn_ctrl_slr2_2_0       |    1 |
+| bd_1361_fanout_aresetn_ctrl_slr2_1_0       |    1 |
+| bd_1361_fanout_aresetn_ctrl_slr1_4_0       |    1 |
+| bd_1361_fanout_aresetn_ctrl_slr1_3_0       |    1 |
+| bd_1361_fanout_aresetn_ctrl_slr1_2_0       |    1 |
+| bd_1361_fanout_aresetn_ctrl_slr1_1_0       |    1 |
+| bd_1361_fanout_aresetn_ctrl_slr0_4_0       |    1 |
+| bd_1361_fanout_aresetn_ctrl_slr0_3_0       |    1 |
+| bd_1361_fanout_aresetn_ctrl_slr0_2_0       |    1 |
+| bd_1361_fanout_aresetn_ctrl_slr0_1_0       |    1 |
+| bd_1361_clock_throttling_avg_0             |    1 |
+| bd_1361_clock_throttling_aclk_kernel_01_0  |    1 |
+| bd_1361_clock_throttling_aclk_kernel_00_0  |    1 |
+| bd_1361_clock_shutdown_latch_0             |    1 |
+| bd_1361_clkwiz_aclk_kernel_01_0            |    1 |
+| bd_1361_clkwiz_aclk_kernel_00_0            |    1 |
+| bd_1361_build_info_0                       |    1 |
+| bd_1361_auto_cc_0                          |    1 |
+| bd_1361_aclk_kernel_01_cont_adapt_0        |    1 |
+| bd_1361_aclk_kernel_01_adapt_0             |    1 |
+| bd_1361_aclk_kernel_00_cont_adapt_0        |    1 |
+| bd_1361_aclk_kernel_00_adapt_0             |    1 |
++--------------------------------------------+------+
+
+
+12. SLR Connectivity
+--------------------
+
++----------------------------------+------+-------+-----------+-------+
+|                                  | Used | Fixed | Available | Util% |
++----------------------------------+------+-------+-----------+-------+
+| SLR3 <-> SLR2                    |  621 |       |     23040 |  2.70 |
+|   SLR2 -> SLR3                   |   54 |       |           |  0.23 |
+|     Using TX_REG only            |    1 |     0 |           |       |
+|     Using RX_REG only            |    1 |     0 |           |       |
+|     Using Both TX_REG and RX_REG |    0 |     0 |           |       |
+|   SLR3 -> SLR2                   |  567 |       |           |  2.46 |
+|     Using TX_REG only            |    0 |     0 |           |       |
+|     Using RX_REG only            |  292 |     0 |           |       |
+|     Using Both TX_REG and RX_REG |    1 |     0 |           |       |
+| SLR2 <-> SLR1                    | 4343 |       |     23040 | 18.85 |
+|   SLR1 -> SLR2                   | 2323 |       |           | 10.08 |
+|     Using TX_REG only            |    0 |     0 |           |       |
+|     Using RX_REG only            |    0 |     0 |           |       |
+|     Using Both TX_REG and RX_REG |    0 |     0 |           |       |
+|   SLR2 -> SLR1                   | 2020 |       |           |  8.77 |
+|     Using TX_REG only            |    0 |     0 |           |       |
+|     Using RX_REG only            |    0 |     0 |           |       |
+|     Using Both TX_REG and RX_REG |    0 |     0 |           |       |
+| SLR1 <-> SLR0                    | 1792 |       |     23040 |  7.78 |
+|   SLR0 -> SLR1                   |  716 |       |           |  3.11 |
+|     Using TX_REG only            |    0 |     0 |           |       |
+|     Using RX_REG only            |    0 |     0 |           |       |
+|     Using Both TX_REG and RX_REG |    0 |     0 |           |       |
+|   SLR1 -> SLR0                   | 1076 |       |           |  4.67 |
+|     Using TX_REG only            |    0 |     0 |           |       |
+|     Using RX_REG only            |    0 |     0 |           |       |
+|     Using Both TX_REG and RX_REG |    0 |     0 |           |       |
++----------------------------------+------+-------+-----------+-------+
+| Total SLLs Used                  | 6756 |       |           |       |
++----------------------------------+------+-------+-----------+-------+
+
+
+13. SLR Connectivity Matrix
+---------------------------
+
++-----------+------+------+------+------+
+| FROM \ TO | SLR3 | SLR2 | SLR1 | SLR0 |
++-----------+------+------+------+------+
+| SLR3      |    0 |  567 |    0 |    0 |
+| SLR2      |   54 |    0 | 1904 |  116 |
+| SLR1      |    0 | 2282 |    0 |  960 |
+| SLR0      |    0 |   41 |  675 |    0 |
++-----------+------+------+------+------+
+
+
+14. SLR CLB Logic and Dedicated Block Utilization
+-------------------------------------------------
+
++----------------------------+-------+-------+-------+------+--------+--------+--------+--------+
+|          Site Type         |  SLR0 |  SLR1 |  SLR2 | SLR3 | SLR0 % | SLR1 % | SLR2 % | SLR3 % |
++----------------------------+-------+-------+-------+------+--------+--------+--------+--------+
+| CLB                        | 13620 | 16880 |  3491 |  347 |  25.22 |  31.26 |   6.46 |   0.64 |
+|   CLBL                     |  7245 |  8675 |  1708 |  165 |  24.74 |  29.63 |   5.83 |   0.56 |
+|   CLBM                     |  6375 |  8205 |  1783 |  182 |  25.79 |  33.19 |   7.21 |   0.74 |
+| CLB LUTs                   | 61309 | 60777 |  6464 |  633 |  14.19 |  14.07 |   1.50 |   0.15 |
+|   LUT as Logic             | 50919 | 56863 |  5566 |  331 |  11.79 |  13.16 |   1.29 |   0.08 |
+|     using O5 output only   |   777 |  1825 |   118 |   49 |   0.18 |   0.42 |   0.03 |   0.01 |
+|     using O6 output only   | 36832 | 39175 |  3283 |  207 |   8.53 |   9.07 |   0.76 |   0.05 |
+|     using O5 and O6        | 13310 | 15863 |  2165 |   75 |   3.08 |   3.67 |   0.50 |   0.02 |
+|   LUT as Memory            | 10390 |  3914 |   898 |  302 |   5.25 |   1.98 |   0.45 |   0.15 |
+|     LUT as Distributed RAM |  5514 |   918 |   302 |  302 |   2.79 |   0.46 |   0.15 |   0.15 |
+|       using O5 output only |     0 |     0 |     0 |    0 |   0.00 |   0.00 |   0.00 |   0.00 |
+|       using O6 output only |  1958 |    82 |     2 |    2 |   0.99 |   0.04 |  <0.01 |  <0.01 |
+|       using O5 and O6      |  3556 |   836 |   300 |  300 |   1.80 |   0.42 |   0.15 |   0.15 |
+|     LUT as Shift Register  |  4876 |  2996 |   596 |    0 |   2.47 |   1.51 |   0.30 |   0.00 |
+| CLB Registers              | 77734 | 97958 | 13298 | 2543 |   9.00 |  11.34 |   1.54 |   0.29 |
+| CARRY8                     |   488 |   372 |     0 |    0 |   0.90 |   0.69 |   0.00 |   0.00 |
+| F7 Muxes                   |  6297 |   772 |     0 |    0 |   2.92 |   0.36 |   0.00 |   0.00 |
+| F8 Muxes                   |  2593 |   261 |     0 |    0 |   2.40 |   0.24 |   0.00 |   0.00 |
+| F9 Muxes                   |     0 |     0 |     0 |    0 |   0.00 |   0.00 |   0.00 |   0.00 |
+| Block RAM Tile             |  72.5 |   104 |     0 |    0 |  10.79 |  15.48 |   0.00 |   0.00 |
+|   RAMB36/FIFO              |    71 |   102 |     0 |    0 |  10.57 |  15.18 |   0.00 |   0.00 |
+|   RAMB18                   |     3 |     4 |     0 |    0 |   0.22 |   0.30 |   0.00 |   0.00 |
+| URAM                       |     0 |     0 |     0 |    0 |   0.00 |   0.00 |   0.00 |   0.00 |
+| DSPs                       |     3 |     4 |     0 |    0 |   0.10 |   0.13 |   0.00 |   0.00 |
+| Unique Control Sets        |  2113 |  2924 |   259 |   60 |   1.96 |   2.71 |   0.24 |   0.06 |
++----------------------------+-------+-------+-------+------+--------+--------+--------+--------+
+* Note: Available Control Sets based on CLB Registers / 8
+
+
+15. SLR IO Utilization
+----------------------
+
++-----------+-----------+---------+------------+----------+------------+----------+-----+
+| SLR Index | Used IOBs | (%)IOBs | Used IPADs | (%)IPADs | Used OPADs | (%)OPADs | GTs |
++-----------+-----------+---------+------------+----------+------------+----------+-----+
+| SLR3      |         0 |    0.00 |          0 |     0.00 |          0 |     0.00 |   0 |
+| SLR2      |         0 |    0.00 |          0 |     0.00 |          0 |     0.00 |   0 |
+| SLR1      |        20 |    9.62 |          0 |     0.00 |          0 |     0.00 |  16 |
+| SLR0      |       139 |   89.10 |          0 |     0.00 |          0 |     0.00 |   0 |
++-----------+-----------+---------+------------+----------+------------+----------+-----+
+| Total     |       159 |         |          0 |          |          0 |          |  16 |
++-----------+-----------+---------+------------+----------+------------+----------+-----+
+
+

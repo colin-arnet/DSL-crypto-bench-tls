@@ -1,0 +1,2 @@
+performing high-level synthesis for kernel: aes256CbcEncryptKernel
+Log file: /home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/_x_temp.sw_emu.xilinx_u250_gen3x16_xdma_4_1_202210_1/aes256CbcEncryptKernel/aes256CbcEncryptKernel/vitis_hls.log

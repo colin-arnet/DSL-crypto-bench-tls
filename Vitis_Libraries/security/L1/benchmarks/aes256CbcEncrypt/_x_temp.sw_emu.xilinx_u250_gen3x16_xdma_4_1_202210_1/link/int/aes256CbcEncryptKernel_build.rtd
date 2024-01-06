@@ -1,0 +1,111 @@
+{
+    "schema_version": {
+        "major": "1",
+        "minor": "0",
+        "patch": "0"
+    },
+    "build_metadata": {
+        "dsa": {
+            "vendor": "xilinx",
+            "board_id": "u250",
+            "name": "gen3x16_xdma_4_1",
+            "version_major": "202210",
+            "version_minor": "1",
+            "description": "",
+            "generated_by": {
+                "name": "Vivado",
+                "version": "2022.1",
+                "cl": "3510589",
+                "time_stamp": "Thu Mar 31 09:04:14 2022"
+            },
+            "board": {
+                "name": "xilinx.com:au250:1.4",
+                "vendor": "xilinx.com",
+                "part": "xcu250-figd2104-2L-e",
+                "board_part": "xilinx.com:au250:part0:1.4"
+            },
+            "feature_roms": [
+                {
+                    "time_epoch": "0"
+                }
+            ]
+        },
+        "xclbin": {
+            "generated_by": {
+                "name": "v++",
+                "version": "2022.1",
+                "cl": "3524075",
+                "time_stamp": "2022-04-13-17:42:45",
+                "options": "\/tools\/Xilinx\/Vitis\/2022.1\/bin\/unwrapped\/lnx64.o\/v++ --config \/home\/carnet\/crypto-bench-tls\/Vitis_Libraries\/security\/L1\/benchmarks\/aes256CbcEncrypt\/conn_u250.cfg --connectivity.nk aes256CbcEncryptKernel:1:aes256CbcEncryptKernel --connectivity.sp aes256CbcEncryptKernel.inputData:bank0 --connectivity.sp aes256CbcEncryptKernel.outputData:bank0 --include \/home\/carnet\/crypto-bench-tls\/Vitis_Libraries\/security\/L1\/include --include \/home\/carnet\/crypto-bench-tls\/Vitis_Libraries\/security\/L1\/benchmarks\/aes256CbcEncrypt\/kernel --include \/home\/carnet\/crypto-bench-tls\/Vitis_Libraries\/security\/L1\/include --input_files _x_temp.sw_emu.xilinx_u250_gen3x16_xdma_4_1_202210_1\/aes256CbcEncryptKernel.xo --kernel_frequency 300 --link --optimize 2 --output build_dir.sw_emu.xilinx_u250_gen3x16_xdma_4_1_202210_1\/aes256CbcEncryptKernel.xclbin --platform \/opt\/xilinx\/platforms\/xilinx_u250_gen3x16_xdma_4_1_202210_1\/xilinx_u250_gen3x16_xdma_4_1_202210_1.xpfm --report_dir \/home\/carnet\/crypto-bench-tls\/Vitis_Libraries\/security\/L1\/benchmarks\/aes256CbcEncrypt\/reports\/_build.sw_emu.xilinx_u250_gen3x16_xdma_4_1_202210_1\/aes256CbcEncryptKernel --report_level 2 --save-temps --target sw_emu --temp_dir _x_temp.sw_emu.xilinx_u250_gen3x16_xdma_4_1_202210_1 "
+            },
+            "user_regions": [
+                {
+                    "name": "OCL_REGION_0",
+                    "type": "clc_region",
+                    "instance_path": "level0_i\/level1\/level1_i\/ulp",
+                    "base_address": "",
+                    "kernels": [
+                        {
+                            "name": "aes256CbcEncryptKernel",
+                            "ports": [
+                                {
+                                    "name": "M_AXI_GMEM0_0",
+                                    "mode": "master",
+                                    "range": "0xFFFFFFFF",
+                                    "data_width": "128",
+                                    "port_type": "addressable",
+                                    "base": "0x0"
+                                },
+                                {
+                                    "name": "M_AXI_GMEM0_1",
+                                    "mode": "master",
+                                    "range": "0xFFFFFFFF",
+                                    "data_width": "128",
+                                    "port_type": "addressable",
+                                    "base": "0x0"
+                                },
+                                {
+                                    "name": "S_AXI_CONTROL",
+                                    "mode": "slave",
+                                    "range": "0x28",
+                                    "data_width": "32",
+                                    "port_type": "addressable",
+                                    "base": "0x0"
+                                }
+                            ],
+                            "arguments": [
+                                {
+                                    "name": "inputData",
+                                    "address_qualifier": "1",
+                                    "id": "0",
+                                    "port": "M_AXI_GMEM0_0",
+                                    "size": "0x8",
+                                    "offset": "0x10",
+                                    "host_offset": "0x0",
+                                    "host_size": "0x8",
+                                    "type": "void*"
+                                },
+                                {
+                                    "name": "outputData",
+                                    "address_qualifier": "1",
+                                    "id": "1",
+                                    "port": "M_AXI_GMEM0_1",
+                                    "size": "0x8",
+                                    "offset": "0x1C",
+                                    "host_offset": "0x0",
+                                    "host_size": "0x8",
+                                    "type": "void*"
+                                }
+                            ],
+                            "instances": [
+                                {
+                                    "name": "aes256CbcEncryptKernel"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

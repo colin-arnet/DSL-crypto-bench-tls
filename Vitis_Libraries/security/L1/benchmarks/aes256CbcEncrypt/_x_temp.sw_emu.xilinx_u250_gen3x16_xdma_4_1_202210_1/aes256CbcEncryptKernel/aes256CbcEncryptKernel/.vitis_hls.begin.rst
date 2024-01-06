@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vitis_hls" Owner="carnet" Host="alveo-u250-01.ethz.ch" Pid="49752" HostCore="16" HostMemory="131922312">
+    </Process>
+</ProcessHandle>

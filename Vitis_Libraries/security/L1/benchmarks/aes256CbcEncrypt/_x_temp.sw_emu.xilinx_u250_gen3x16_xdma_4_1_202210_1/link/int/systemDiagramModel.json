@@ -1,0 +1,346 @@
+{
+ "system_diagram_metadata": {
+  "schema_version": {
+   "major": "2",
+   "minor": "0",
+   "patch": "0"
+  },
+  "xsa": {
+   "vendor": "xilinx",
+   "board_id": "u250",
+   "name": "gen3x16_xdma_4_1",
+   "version_major": "202210",
+   "version_minor": "1",
+   "description": "\nThis platform targets the Alveo U250 Data Center Accelerator Card. This high-performance acceleration platform features up to four channels of DDR4-2400 SDRAM which are instantiated as required by the user kernels for high fabric resource availability, and Xilinx DMA Subsystem for PCI Express with PCIe Gen3 x16 connectivity.\n    ",
+   "generated_by": {
+    "name": "Vivado",
+    "version": "2022.1",
+    "cl": "3510589",
+    "time_stamp": "Thu Mar 31 09:04:14 2022"
+   },
+   "board": {
+    "name": "xilinx.com:au250:1.4",
+    "vendor": "xilinx.com",
+    "part": "xcu250-figd2104-2L-e",
+    "board_part": "xilinx.com:au250:part0:1.4"
+   },
+   "available_resources": {
+    "LUT": "1728000",
+    "REG": "2976240",
+    "BRAM": "2688",
+    "DSP": "12288",
+    "URAM": ""
+   },
+   "device_topology": [
+    {
+     "id": "0",
+     "type": "Ddr4",
+     "used": "yes",
+     "sizeKB": "17179869184",
+     "base_address": "0x00000000",
+     "tag": "DDR[0]",
+     "slr": "",
+     "spTag": ""
+    },
+    {
+     "id": "1",
+     "type": "Ddr4",
+     "used": "yes",
+     "sizeKB": "17179869184",
+     "base_address": "0x00000001",
+     "tag": "DDR[1]",
+     "slr": "",
+     "spTag": ""
+    },
+    {
+     "id": "2",
+     "type": "Ddr4",
+     "used": "yes",
+     "sizeKB": "17179869184",
+     "base_address": "0x00000002",
+     "tag": "DDR[2]",
+     "slr": "",
+     "spTag": ""
+    },
+    {
+     "id": "3",
+     "type": "Ddr4",
+     "used": "yes",
+     "sizeKB": "17179869184",
+     "base_address": "0x00000003",
+     "tag": "DDR[3]",
+     "slr": "",
+     "spTag": ""
+    },
+    {
+     "id": "4",
+     "type": "Ddr4",
+     "used": "yes",
+     "sizeKB": "17179869184",
+     "base_address": "0x00000004",
+     "tag": "HOST[0]",
+     "slr": "",
+     "spTag": ""
+    },
+    {
+     "id": "5",
+     "type": "Ddr4",
+     "used": "yes",
+     "sizeKB": "17179869184",
+     "base_address": "0x00000005",
+     "tag": "PLRAM[0]",
+     "slr": "",
+     "spTag": ""
+    },
+    {
+     "id": "6",
+     "type": "Ddr4",
+     "used": "yes",
+     "sizeKB": "17179869184",
+     "base_address": "0x00000006",
+     "tag": "PLRAM[1]",
+     "slr": "",
+     "spTag": ""
+    },
+    {
+     "id": "7",
+     "type": "Ddr4",
+     "used": "yes",
+     "sizeKB": "17179869184",
+     "base_address": "0x00000007",
+     "tag": "PLRAM[2]",
+     "slr": "",
+     "spTag": ""
+    },
+    {
+     "id": "8",
+     "type": "Ddr4",
+     "used": "yes",
+     "sizeKB": "17179869184",
+     "base_address": "0x00000008",
+     "tag": "PLRAM[3]",
+     "slr": "",
+     "spTag": ""
+    }
+   ],
+   "design_intent": [
+    "dataCenter",
+    "externalHost",
+    "serverManaged"
+   ],
+   "clocks": [
+    {
+     "name": "CPU",
+     "orig_name": "CPU",
+     "id": -1,
+     "default": false,
+     "type": "RESERVED",
+     "spec_frequency": 1,
+     "spec_period": 1000,
+     "requested_frequency": 0,
+     "achieved_frequency": 0,
+     "clock_domain": "",
+     "inst_ref": "",
+     "comp_ref": "",
+     "xclbin_name": ""
+    },
+    {
+     "name": "PL 2",
+     "orig_name": "ii_level1_wire_ulp_m_aclk_ctrl_00",
+     "id": 2,
+     "default": false,
+     "type": "FIXED",
+     "spec_frequency": 50,
+     "spec_period": 20,
+     "requested_frequency": 0,
+     "achieved_frequency": 0,
+     "clock_domain": "",
+     "inst_ref": "",
+     "comp_ref": "",
+     "xclbin_name": ""
+    },
+    {
+     "name": "PL 3",
+     "orig_name": "ii_level1_wire_ulp_m_aclk_pcie_user_00",
+     "id": 3,
+     "default": false,
+     "type": "FIXED",
+     "spec_frequency": 250,
+     "spec_period": 4,
+     "requested_frequency": 0,
+     "achieved_frequency": 0,
+     "clock_domain": "",
+     "inst_ref": "",
+     "comp_ref": "",
+     "xclbin_name": ""
+    },
+    {
+     "name": "PL 4",
+     "orig_name": "ii_level1_wire_ulp_m_aclk_freerun_ref_00",
+     "id": 4,
+     "default": false,
+     "type": "FIXED",
+     "spec_frequency": 100,
+     "spec_period": 10,
+     "requested_frequency": 0,
+     "achieved_frequency": 0,
+     "clock_domain": "",
+     "inst_ref": "",
+     "comp_ref": "",
+     "xclbin_name": ""
+    },
+    {
+     "name": "PL 0",
+     "orig_name": "ss_ucs_aclk_kernel_00",
+     "id": 0,
+     "default": false,
+     "type": "SCALABLE",
+     "spec_frequency": 300,
+     "spec_period": 3.333333,
+     "requested_frequency": 0,
+     "achieved_frequency": 0,
+     "clock_domain": "",
+     "inst_ref": "",
+     "comp_ref": "",
+     "xclbin_name": ""
+    },
+    {
+     "name": "PL 1",
+     "orig_name": "ss_ucs_aclk_kernel_01",
+     "id": 1,
+     "default": false,
+     "type": "SCALABLE",
+     "spec_frequency": 500,
+     "spec_period": 2,
+     "requested_frequency": 0,
+     "achieved_frequency": 0,
+     "clock_domain": "",
+     "inst_ref": "",
+     "comp_ref": "",
+     "xclbin_name": ""
+    }
+   ]
+  },
+  "xclbin": {
+   "generated_by": {
+    "name": "v++",
+    "version": "2022.1",
+    "cl": "3524075",
+    "time_stamp": "2022-04-13-17:42:45",
+    "options": "/tools/Xilinx/Vitis/2022.1/bin/unwrapped/lnx64.o/v++ -l -t sw_emu --platform /opt/xilinx/platforms/xilinx_u250_gen3x16_xdma_4_1_202210_1/xilinx_u250_gen3x16_xdma_4_1_202210_1.xpfm --save-temps --config /home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/conn_u250.cfg -I /home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include -I /home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/kernel -I /home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/include --temp_dir _x_temp.sw_emu.xilinx_u250_gen3x16_xdma_4_1_202210_1 --report_dir /home/carnet/crypto-bench-tls/Vitis_Libraries/security/L1/benchmarks/aes256CbcEncrypt/reports/_build.sw_emu.xilinx_u250_gen3x16_xdma_4_1_202210_1/aes256CbcEncryptKernel --optimize 2 -R 2 --kernel_frequency 300 -o build_dir.sw_emu.xilinx_u250_gen3x16_xdma_4_1_202210_1/aes256CbcEncryptKernel.xclbin _x_temp.sw_emu.xilinx_u250_gen3x16_xdma_4_1_202210_1/aes256CbcEncryptKernel.xo ",
+    "xclbin_name": "aes256CbcEncryptKernel",
+    "uuid": "cf1ff58a-4806-42a9-bf32-b1c083333f1e",
+    "link_uuid": "cf1ff58a-4806-42a9-bf32-b1c083333f1e",
+    "package_uuid": "",
+    "system_compile_flow": false
+   },
+   "user_regions": [
+    {
+     "name": "OCL_REGION_0",
+     "type": "clc_region",
+     "instance_path": "level0_i/level1/level1_i/ulp",
+     "available_resources": {
+      "LUT": "1488120",
+      "REG": "2976240",
+      "BRAM": "2384",
+      "DSP": "10634",
+      "by_SLR": [
+       {
+        "name": "SLR0",
+        "LUT": "423840",
+        "REG": "847680",
+        "BRAM": "668",
+        "DSP": "3032",
+        "URAM": "312"
+       },
+       {
+        "name": "SLR1",
+        "LUT": "213120",
+        "REG": "426240",
+        "BRAM": "384",
+        "DSP": "1536",
+        "URAM": "128"
+       },
+       {
+        "name": "SLR2",
+        "LUT": "419160",
+        "REG": "838320",
+        "BRAM": "660",
+        "DSP": "2994",
+        "URAM": "308"
+       },
+       {
+        "name": "SLR3",
+        "LUT": "432000",
+        "REG": "864000",
+        "BRAM": "672",
+        "DSP": "3072",
+        "URAM": "320"
+       }
+      ],
+      "URAM": ""
+     },
+     "kernels": [],
+     "compute_units": [
+      {
+       "id": "0",
+       "kernel_name": "aes256CbcEncryptKernel",
+       "cu_name": "aes256CbcEncryptKernel",
+       "base_address": "",
+       "actual_resources": [],
+       "clock_name": "",
+       "clock_id": 0,
+       "clocks": [],
+       "reset_port_name": ""
+      }
+     ],
+     "connectivity": [
+      {
+       "id": "0",
+       "node1": {
+        "type": "compute_unit",
+        "id": "0",
+        "kernel_argument_id": "0",
+        "arg_name": "inputData",
+        "mode": "Master",
+        "name": "",
+        "port_name": ""
+       },
+       "node2": {
+        "type": "memory",
+        "id": "0",
+        "kernel_argument_id": "",
+        "arg_name": "",
+        "mode": "",
+        "name": "",
+        "port_name": ""
+       }
+      },
+      {
+       "id": "1",
+       "node1": {
+        "type": "compute_unit",
+        "id": "0",
+        "kernel_argument_id": "1",
+        "arg_name": "outputData",
+        "mode": "Master",
+        "name": "",
+        "port_name": ""
+       },
+       "node2": {
+        "type": "memory",
+        "id": "0",
+        "kernel_argument_id": "",
+        "arg_name": "",
+        "mode": "",
+        "name": "",
+        "port_name": ""
+       }
+      }
+     ]
+    }
+   ]
+  }
+ }
+}
+

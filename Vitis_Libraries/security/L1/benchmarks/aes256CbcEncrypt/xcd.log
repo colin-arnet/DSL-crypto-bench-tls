@@ -1,0 +1,62 @@
+Thu May 11 14:44:07 2023: Running xcd server. This server was built by gradle.
+Thu May 11 14:44:07 2023: Server was asked to start on port: '42031'
+Thu May 11 14:44:07 2023: Server is using token UUID: 'e7e6e226-b9a5-4f10-8454-45026924c5dc'
+Thu May 11 14:44:07 2023: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Thu May 11 14:44:07 2023: Attempting to start server on port '42031'
+Thu May 11 14:44:07 2023: XCD main fifo: created main fifo '/tmp/xcdmaine7e6e226-b9a5-4f10-8454-45026924c5dc', fd read = 13
+Thu May 11 14:44:07 2023: Running Dispatch Server
+Thu May 11 14:44:07 2023: Version 2.2.0
+Thu May 11 14:44:16 2023: Dispatch Server: Accepted socket connection from client
+Thu May 11 14:44:16 2023: Starting Socket connection
+Thu May 11 14:44:16 2023: EXCHANGE_TOKEN received, server token: e7e6e226-b9a5-4f10-8454-45026924c5dc, passed token: e7e6e226-b9a5-4f10-8454-45026924c5dc
+Thu May 11 14:44:16 2023: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Thu May 11 14:44:16 2023: SESSION_MGR: creating session with session uuid: '39e115cb-7c28-40f0-9a67-52338981fc13' and name 'v++_compile_aes256CbcEncryptKernel'
+Thu May 11 14:44:16 2023: KERNEL_SVC: creating session with uuid: '39e115cb-7c28-40f0-9a67-52338981fc13' and name 'v++_compile_aes256CbcEncryptKernel'
+Thu May 11 14:44:16 2023: GUIDANCE_SMGR: creating guidance session with uuid: '39e115cb-7c28-40f0-9a67-52338981fc13' and name 'v++_compile_aes256CbcEncryptKernel'
+Thu May 11 14:44:16 2023: SYSTEM_DIAGRAM: creating session with uuid: '39e115cb-7c28-40f0-9a67-52338981fc13' and name 'v++_compile_aes256CbcEncryptKernel'
+Thu May 11 14:44:45 2023: SESSION_MGR: closing session for UUID '39e115cb-7c28-40f0-9a67-52338981fc13' with name 'v++_compile_aes256CbcEncryptKernel'
+Thu May 11 14:44:45 2023: KERNEL_SVC: closing session for UUID '39e115cb-7c28-40f0-9a67-52338981fc13' with name 'v++_compile_aes256CbcEncryptKernel'
+Thu May 11 14:44:45 2023: GUIDANCE_SMGR: closing session for UUID '39e115cb-7c28-40f0-9a67-52338981fc13' with name 'v++_compile_aes256CbcEncryptKernel'
+Thu May 11 14:44:45 2023: SYSTEM_DIAGRAM: closing session for UUID '39e115cb-7c28-40f0-9a67-52338981fc13' with name 'v++_compile_aes256CbcEncryptKernel'
+Thu May 11 14:44:45 2023: STOP_SERVER received, server token: e7e6e226-b9a5-4f10-8454-45026924c5dc, passed token: e7e6e226-b9a5-4f10-8454-45026924c5dc
+Thu May 11 14:44:45 2023: Socket received request to stop server.
+Thu May 11 14:44:45 2023: Dispatch Server: do_await_stop
+Thu May 11 14:44:45 2023: Dispatch Server: stopping mainFifo_
+Thu May 11 14:44:45 2023: XCD main fifo: Stopping
+Thu May 11 14:44:45 2023: XCD main fifo: do_read error code: Operation canceled
+Thu May 11 14:44:45 2023: XCD main fifo: bytes_transferred: 0
+Thu May 11 14:44:45 2023: SERVER: destructor for server bound to port 42031
+Thu May 11 14:44:45 2023: XCD main fifo: Good unlink of /tmp/xcdmaine7e6e226-b9a5-4f10-8454-45026924c5dc
+Thu May 11 14:44:45 2023: Server exiting with status 0.
+Thu May 11 14:44:45 2023: Closing log file.
+Thu May 11 14:44:48 2023: Running xcd server. This server was built by gradle.
+Thu May 11 14:44:48 2023: Server was asked to start on port: '36231'
+Thu May 11 14:44:48 2023: Server is using token UUID: '046af9cd-2d91-4347-9953-770d13d85067'
+Thu May 11 14:44:48 2023: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Thu May 11 14:44:48 2023: Attempting to start server on port '36231'
+Thu May 11 14:44:48 2023: XCD main fifo: created main fifo '/tmp/xcdmain046af9cd-2d91-4347-9953-770d13d85067', fd read = 13
+Thu May 11 14:44:48 2023: Running Dispatch Server
+Thu May 11 14:44:48 2023: Version 2.2.0
+Thu May 11 14:44:57 2023: Dispatch Server: Accepted socket connection from client
+Thu May 11 14:44:57 2023: Starting Socket connection
+Thu May 11 14:44:57 2023: EXCHANGE_TOKEN received, server token: 046af9cd-2d91-4347-9953-770d13d85067, passed token: 046af9cd-2d91-4347-9953-770d13d85067
+Thu May 11 14:44:57 2023: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Thu May 11 14:44:57 2023: SESSION_MGR: creating session with session uuid: '65047dba-bf93-4149-af31-51737a073473' and name 'v++_link_aes256CbcEncryptKernel'
+Thu May 11 14:44:57 2023: KERNEL_SVC: creating session with uuid: '65047dba-bf93-4149-af31-51737a073473' and name 'v++_link_aes256CbcEncryptKernel'
+Thu May 11 14:44:57 2023: GUIDANCE_SMGR: creating guidance session with uuid: '65047dba-bf93-4149-af31-51737a073473' and name 'v++_link_aes256CbcEncryptKernel'
+Thu May 11 14:44:57 2023: SYSTEM_DIAGRAM: creating session with uuid: '65047dba-bf93-4149-af31-51737a073473' and name 'v++_link_aes256CbcEncryptKernel'
+Thu May 11 14:45:10 2023: SESSION_MGR: closing session for UUID '65047dba-bf93-4149-af31-51737a073473' with name 'v++_link_aes256CbcEncryptKernel'
+Thu May 11 14:45:10 2023: KERNEL_SVC: closing session for UUID '65047dba-bf93-4149-af31-51737a073473' with name 'v++_link_aes256CbcEncryptKernel'
+Thu May 11 14:45:10 2023: GUIDANCE_SMGR: closing session for UUID '65047dba-bf93-4149-af31-51737a073473' with name 'v++_link_aes256CbcEncryptKernel'
+Thu May 11 14:45:10 2023: SYSTEM_DIAGRAM: closing session for UUID '65047dba-bf93-4149-af31-51737a073473' with name 'v++_link_aes256CbcEncryptKernel'
+Thu May 11 14:45:10 2023: STOP_SERVER received, server token: 046af9cd-2d91-4347-9953-770d13d85067, passed token: 046af9cd-2d91-4347-9953-770d13d85067
+Thu May 11 14:45:10 2023: Socket received request to stop server.
+Thu May 11 14:45:10 2023: Dispatch Server: do_await_stop
+Thu May 11 14:45:10 2023: Dispatch Server: stopping mainFifo_
+Thu May 11 14:45:10 2023: XCD main fifo: Stopping
+Thu May 11 14:45:10 2023: XCD main fifo: do_read error code: Operation canceled
+Thu May 11 14:45:10 2023: XCD main fifo: bytes_transferred: 0
+Thu May 11 14:45:10 2023: SERVER: destructor for server bound to port 36231
+Thu May 11 14:45:10 2023: XCD main fifo: Good unlink of /tmp/xcdmain046af9cd-2d91-4347-9953-770d13d85067
+Thu May 11 14:45:10 2023: Server exiting with status 0.
+Thu May 11 14:45:10 2023: Closing log file.

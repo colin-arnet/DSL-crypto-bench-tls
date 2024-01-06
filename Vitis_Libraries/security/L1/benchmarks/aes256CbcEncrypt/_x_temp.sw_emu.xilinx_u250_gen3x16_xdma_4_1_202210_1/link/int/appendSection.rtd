@@ -1,0 +1,110 @@
+{
+    "partition_metadata": {
+        "addressable_endpoints": {
+            "ep_ddr_mem_ctrl_03": {
+                "pcie_physical_function": "0x0",
+                "range": "0x0000000000001000",
+                "register_abstraction_name": "xilinx.com:reg_abs:ddr4_ctrl:1.0",
+                "offset": "0x0000000000920000"
+            },
+            "ep_aclk_kernel_01": {
+                "pcie_physical_function": "0x0",
+                "range": "0x0000000000001000",
+                "register_abstraction_name": "xilinx.com:reg_abs:clkwiz:1.0",
+                "offset": "0x0000000000984000"
+            },
+            "ep_ddr_mem_ctrl_01": {
+                "pcie_physical_function": "0x0",
+                "range": "0x0000000000001000",
+                "register_abstraction_name": "xilinx.com:reg_abs:ddr4_ctrl:1.0",
+                "offset": "0x0000000000100000"
+            },
+            "ep_freq_cnt_aclk_kernel_01": {
+                "pcie_physical_function": "0x0",
+                "range": "0x0000000000001000",
+                "register_abstraction_name": "xilinx.com:reg_abs:freq_cnt:1.0",
+                "offset": "0x000000000098A000"
+            },
+            "ep_gapping_demand_00": {
+                "pcie_physical_function": "0x0",
+                "range": "0x0000000000001000",
+                "register_abstraction_name": "xilinx.com:reg_abs:ucs_gapping_demand:1.0",
+                "offset": "0x0000000000981000"
+            },
+            "ep_ddr_mem_ctrl_00": {
+                "pcie_physical_function": "0x0",
+                "range": "0x0000000000001000",
+                "register_abstraction_name": "xilinx.com:reg_abs:ddr4_ctrl:1.0",
+                "offset": "0x0000000000900000"
+            },
+            "ep_aclk_kernel_00": {
+                "pcie_physical_function": "0x0",
+                "range": "0x0000000000001000",
+                "register_abstraction_name": "xilinx.com:reg_abs:clkwiz:1.0",
+                "offset": "0x0000000000983000"
+            },
+            "ep_freq_cnt_aclk_kernel_00": {
+                "pcie_physical_function": "0x0",
+                "range": "0x0000000000001000",
+                "register_abstraction_name": "xilinx.com:reg_abs:freq_cnt:1.0",
+                "offset": "0x0000000000989000"
+            },
+            "ep_debug_bscan_user_00": {
+                "pcie_physical_function": "0x1",
+                "range": "0x0000000000001000",
+                "register_abstraction_name": "xilinx.com:reg_abs:debug_bridge:1.0",
+                "offset": "0x0000000001C00000"
+            },
+            "ep_ucs_control_status_00": {
+                "pcie_physical_function": "0x0",
+                "range": "0x0000000000001000",
+                "register_abstraction_name": "xilinx.com:reg_abs:ucs_control_status:1.0",
+                "offset": "0x0000000000982000"
+            },
+            "ep_ddr_mem_ctrl_02": {
+                "pcie_physical_function": "0x0",
+                "range": "0x0000000000001000",
+                "register_abstraction_name": "xilinx.com:reg_abs:ddr4_ctrl:1.0",
+                "offset": "0x0000000000910000"
+            }
+        },
+        "interfaces": [
+            {
+                "interface_uuid": "a8880c2311a2a42b5fb76899d385acee"
+            }
+        ],
+        "schema_version": {
+            "minor": "0",
+            "major": "1"
+        }
+    },
+    "ip_layout": {
+        "m_count": "4",
+        "m_ip_data": [
+            {
+                "m_name": "AXI-LITE-BANK0",
+                "m_type": "IP_DDR4_CONTROLLER",
+                "properties": "0",
+                "m_base_address": "0x000000900000"
+            },
+            {
+                "m_name": "AXI-LITE-BANK1",
+                "m_type": "IP_DDR4_CONTROLLER",
+                "properties": "1",
+                "m_base_address": "0x000000100000"
+            },
+            {
+                "m_name": "AXI-LITE-BANK2",
+                "m_type": "IP_DDR4_CONTROLLER",
+                "properties": "2",
+                "m_base_address": "0x000000910000"
+            },
+            {
+                "m_name": "AXI-LITE-BANK3",
+                "m_type": "IP_DDR4_CONTROLLER",
+                "properties": "3",
+                "m_base_address": "0x000000920000"
+            }
+        ]
+    }
+}

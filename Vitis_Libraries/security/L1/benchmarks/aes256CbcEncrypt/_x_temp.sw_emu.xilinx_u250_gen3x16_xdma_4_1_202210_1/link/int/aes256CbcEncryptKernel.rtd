@@ -1,0 +1,108 @@
+{
+    "schema_version": {
+        "major": "1",
+        "minor": "0",
+        "patch": "0"
+    },
+    "mem_topology": {
+        "m_mem_data": {
+            "mem_data": {
+                "m_type": "MEM_DDR4",
+                "m_used": "1",
+                "m_sizeKB": "17179869184",
+                "m_base_address": "0x00000000",
+                "m_tag": "DDR[0]"
+            },
+            "mem_data": {
+                "m_type": "MEM_DDR4",
+                "m_used": "1",
+                "m_sizeKB": "17179869184",
+                "m_base_address": "0x00000001",
+                "m_tag": "DDR[1]"
+            },
+            "mem_data": {
+                "m_type": "MEM_DDR4",
+                "m_used": "1",
+                "m_sizeKB": "17179869184",
+                "m_base_address": "0x00000002",
+                "m_tag": "DDR[2]"
+            },
+            "mem_data": {
+                "m_type": "MEM_DDR4",
+                "m_used": "1",
+                "m_sizeKB": "17179869184",
+                "m_base_address": "0x00000003",
+                "m_tag": "DDR[3]"
+            },
+            "mem_data": {
+                "m_type": "MEM_DDR4",
+                "m_used": "1",
+                "m_sizeKB": "17179869184",
+                "m_base_address": "0x00000004",
+                "m_tag": "HOST[0]"
+            },
+            "mem_data": {
+                "m_type": "MEM_DDR4",
+                "m_used": "1",
+                "m_sizeKB": "17179869184",
+                "m_base_address": "0x00000005",
+                "m_tag": "PLRAM[0]"
+            },
+            "mem_data": {
+                "m_type": "MEM_DDR4",
+                "m_used": "1",
+                "m_sizeKB": "17179869184",
+                "m_base_address": "0x00000006",
+                "m_tag": "PLRAM[1]"
+            },
+            "mem_data": {
+                "m_type": "MEM_DDR4",
+                "m_used": "1",
+                "m_sizeKB": "17179869184",
+                "m_base_address": "0x00000007",
+                "m_tag": "PLRAM[2]"
+            },
+            "mem_data": {
+                "m_type": "MEM_DDR4",
+                "m_used": "1",
+                "m_sizeKB": "17179869184",
+                "m_base_address": "0x00000008",
+                "m_tag": "PLRAM[3]"
+            }
+        },
+        "m_count": "9"
+    },
+    "ip_layout": {
+        "m_ip_data": {
+            "mem_data": {
+                "m_type": "IP_KERNEL",
+                "properties": "0x1",
+                "m_int_enable": "1",
+                "m_interrupt_id": "0",
+                "m_ip_control": "AP_CTRL_CHAIN",
+                "m_base_address": "0",
+                "m_name": "aes256CbcEncryptKernel:aes256CbcEncryptKernel"
+            }
+        },
+        "m_count": "1"
+    },
+    "connectivity": {
+        "m_connection": {
+            "connection": {
+                "arg_index": "0",
+                "arg_name": "inputData",
+                "mode": "Master",
+                "m_ip_layout_index": "0",
+                "mem_data_index": "0"
+            },
+            "connection": {
+                "arg_index": "1",
+                "arg_name": "outputData",
+                "mode": "Master",
+                "m_ip_layout_index": "0",
+                "mem_data_index": "0"
+            }
+        },
+        "m_count": "2"
+    }
+}
