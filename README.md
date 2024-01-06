@@ -3,7 +3,8 @@
 
 # Benchmarking TLS Cipher Suites on FPGA
 
-This is the git repository for the semester thesis.
+This is the git repository for the semester thesis. Within the scope of the Distributed Systems Lab.
+
 ## Abstract
 
 TLS is the most widely used protocol to secure web traffic. By encrypting and authenticating the data it provides confidentiality and integrity. From a set of different crytographic operations used in TLS, the cipher suites emerged to be the most used operations of the protocol, since they encrypt/decrypt the entire application data. Since the cipher suites are heavily used, they are a attractive target to offload on a FPGA device. The Vitis security library provides HLS implementations that can be loaded onto an FPGA. In this thesis, we evaluate the performance of these functions and compare the performance to the well established OpenSSL implementations. For the AES-GCM mode the hardware functions are on one level with the
